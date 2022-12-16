@@ -1,14 +1,16 @@
-﻿string a = Console.ReadLine();
-string b = Console.ReadLine();
-if (a > b) {
-    max = a;
-    min = b;
+﻿int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+if(a > b) 
+{
+    Console.Write("max =");
+    Console.WriteLine(a);
+    Console.Write("min =");
+    Console.WriteLine(b);
 }
-else {
-    max = b;
-    min = c;
+else 
+{
+    Console.Write("max = ");
+    Console.WriteLine(b);
+    Console.Write("min = ");
+    Console.WriteLine(a);
 }
-Console.Write("max =");
-Console.WriteLine(max);
-Console.Write("min =");
-Console.WriteLine(min);
